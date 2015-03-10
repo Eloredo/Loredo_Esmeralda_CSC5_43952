@@ -18,7 +18,7 @@ using namespace std;
 int main(int argc, char** argv) {
 //Declare Variables 
     
-   int gTotal, tAmount,tRate, rate;
+   int gTotal, tAmount;
    
    //Function Prototype
    double Total;
@@ -29,7 +29,6 @@ int main(int argc, char** argv) {
     Total= 52.00;//two dollars of purchase
     sTax = 0.04;//Sales tax is 4%
     cTax= 0.02;//County Tax is 2%
-    tRate=rate/100;
     //Calculate the County Tax by adding the total to CT
     Total=52.00;
     sTax=Total*0.04;
@@ -40,7 +39,6 @@ int main(int argc, char** argv) {
     cout<< "Total Sales Tax: $"<<sTax<<endl;
     cout<< "Total County Sales Tax: $"<<cTax<<endl;
     cout<< "Grand Total: $" <<gTotal<<endl;
-    
     //Exit Right Stage   
     return 0;
     
