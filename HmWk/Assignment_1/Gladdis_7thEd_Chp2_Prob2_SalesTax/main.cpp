@@ -18,33 +18,30 @@ using namespace std;
 int main(int argc, char** argv) {
 //Declare Variables 
     
-   int TtlST, TtlAmt;
+   int gTotal, tAmount,tRate, rate;
    
    //Function Prototype
-   double Purc;
-   double SalesT;
-   double CountyT;
+   double Total;
+   double sTax;
+   double cTax;
     
     //Calculate the amount of a .04 percent sales tax
-    Purc= 52;//two dollars of purchase
-    SalesT = 0.04;//Sales tax is 4%
-    CountyT= 0.02;//County Tax is 2%
-    
-    TtlST=52.00/1+0.04;
+    Total= 52.00;//two dollars of purchase
+    sTax = 0.04;//Sales tax is 4%
+    cTax= 0.02;//County Tax is 2%
+    tRate=rate/100;
     //Calculate the County Tax by adding the total to CT
-    TtlAmt=TtlST/1+0.02;
+    Total=52.00;
+    sTax=Total*0.04;
+    cTax=Total*0.02;
+    gTotal=52.00+sTax+cTax;
     //Display the results
-    cout<< "Regular Price: $" << Purc<<endl;
-    cout<< "Total Sales Tax: $"<<TtlST<<endl;
-    cout<< "Total County Sales Tax: $"<<TtlAmt<<endl;
-   
+    cout<< "Regular Price: $" <<Total<<endl;
+    cout<< "Total Sales Tax: $"<<sTax<<endl;
+    cout<< "Total County Sales Tax: $"<<cTax<<endl;
+    cout<< "Grand Total: $" <<gTotal<<endl;
     
-    
-    
-    
-    
-    
-    
+    //Exit Right Stage   
     return 0;
     
 }
