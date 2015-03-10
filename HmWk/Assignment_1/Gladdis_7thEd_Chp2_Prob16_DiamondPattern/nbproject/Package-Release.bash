@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gladdis_7thed_prob16_diamondpattern
-OUTPUT_BASENAME=gladdis_7thed_prob16_diamondpattern
-PACKAGE_TOP_DIR=gladdis7thedprob16diamondpattern/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gladdis_7thed_chp2_prob16_diamondpattern
+OUTPUT_BASENAME=gladdis_7thed_chp2_prob16_diamondpattern
+PACKAGE_TOP_DIR=gladdis7thedchp2prob16diamondpattern/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/gladdis7thedprob16diamondpattern/bin"
+makeDirectory "${NBTMPDIR}/gladdis7thedchp2prob16diamondpattern/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/gladdis7thedprob16diamondpattern.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/gladdis7thedchp2prob16diamondpattern.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/gladdis7thedprob16diamondpattern.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/gladdis7thedchp2prob16diamondpattern.tar *
 checkReturnCode
 
 # Cleanup
