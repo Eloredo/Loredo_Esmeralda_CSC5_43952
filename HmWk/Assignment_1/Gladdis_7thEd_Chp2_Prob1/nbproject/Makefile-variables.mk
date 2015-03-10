@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=gladdis_7thed_chp2_prob13_circuitboardprice
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/gladdis_7thed_chp2_prob13_circuitboardprice
+CND_ARTIFACT_NAME_Debug=gladdis_7thed_chp2_prob1
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/gladdis_7thed_chp2_prob1
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=gladdis7thedchp2prob13circuitboardprice.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/gladdis7thedchp2prob13circuitboardprice.tar
+CND_PACKAGE_NAME_Debug=gladdis7thedchp2prob1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/gladdis7thedchp2prob1.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=gladdis_7thed_chp2_prob13_circuitboardprice
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/gladdis_7thed_chp2_prob13_circuitboardprice
+CND_ARTIFACT_NAME_Release=gladdis_7thed_chp2_prob1
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/gladdis_7thed_chp2_prob1
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=gladdis7thedchp2prob13circuitboardprice.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/gladdis7thedchp2prob13circuitboardprice.tar
+CND_PACKAGE_NAME_Release=gladdis7thedchp2prob1.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/gladdis7thedchp2prob1.tar
 #
 # include compiler specific variables
 #

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Gladdis_7thEd_Chp2_Prob13_CircuitBoardPrice
+PROJECTNAME=Gladdis_7thEd_Chp2_Prob1
 
 # Active Configuration
 DEFAULTCONF=Debug
