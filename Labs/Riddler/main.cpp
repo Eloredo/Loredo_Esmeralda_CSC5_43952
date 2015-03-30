@@ -24,9 +24,11 @@ int main(int argc, char** argv) {
                 for(int d1=0; d1<=9;d1++){
                     if((d1000==3*d10) &&
                       (d1%2 == 1) &&
-                      ((d1000+d100+d10+d1)==27)){
-                        cout<<"The Address Number = ";
-                        cout<<d1000<<d100<<d10<<d1<<endl;
+                      ((d1000+d100+d10+d1)==27)&&
+                       (d1!=d10&&d1!=d100&&d1!=d1000&&
+                        d10!=d100&&d10!=d1000&&d100!=d1000)){
+                       cout<<"The Address Number = ";
+                       cout<<d1000<<d100<<d10<<d1<<endl;
                     }
                 }
             }
